@@ -2,7 +2,7 @@
 # Create Topic, Produce and Consume the key-value pair
 ### Create Topic
 ```
-docker compose exec broker \
+docker exec broker \
   kafka-topics --create \
     --topic purchases \
     --bootstrap-server localhost:9092 \
